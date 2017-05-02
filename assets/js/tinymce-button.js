@@ -2,6 +2,7 @@
   tinymce.PluginManager.add('expander_button', function( editor, url ) {
     editor.addButton( 'expander_button', {
       title: 'Expander',
+      icon: 'icon dashicons-arrow-down-alt',
       onclick: function() {
         editor.windowManager.open( {
           title: 'Create Expander',
